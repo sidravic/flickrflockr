@@ -1,2 +1,2 @@
-require "flickrflockr"
+#require "flickrflockr"
 
