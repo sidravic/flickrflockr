@@ -34,7 +34,7 @@ describe Flickr::FlickrConnection do
     @signature_string = "4f70d2e8104edaefapi_key1533d3477c4c35f8b24b8592c4199791frob185-837403740methodflickr.auth.getToken"                       
     @get_token_signature = "b5a6b52decf5e48d76da23c01c4b580d"
     @get_token_signature_string = "4f70d2e8104edaefapi_key1533d3477c4c35f8b24b8592c4199791frob72157624898115104-e2732eada6d35ed5-49730744methodflickr.auth.getToken"
-    @frob_response_xml = File.read(RAILS_ROOT + "/spec/seed/token_data.xml")
+    @frob_response_xml = File.read(RAILS_ROOT + "/spec/feeds/glickr_getToken.xml")
     
   end
   
